@@ -1,0 +1,43 @@
+body{
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: rgb(12,164,222);
+    background: linear-gradient(180deg, rgba(12,164,222,1) 0%, rgba(15,92,184,1) 31%, rgba(0,212,255,1) 100%);
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    color: whitesmoke;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 1em;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 45%, rgba(0,212,255,1) 100%);
+}
+
+main{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    margin-bottom: 1em;
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+}
